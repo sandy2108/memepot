@@ -31,7 +31,7 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="Memepot =Jackpot" textStyles="text-4xl font-extrabold text-[#Afff03]"/>
+        <TypingText title="Memepot =Jackpot" textStyles="text-2xl md:text-4xl font-extrabold text-[#Afff03]"/>
         <TitleText title={<>Earn rewards with simple steps! </>} textStyles="text-5xl mt-7" />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (

@@ -62,7 +62,12 @@ const Hero = () => {
                 alt="/"
                 className="opacity-[0.4] -rotate-12"
               />
-            </div>        
+            </div>    
+            <div className="absolute  right-[100px] top-0 mt-5 md:mt-20">
+             <Image src="/star.svg" width={20} height={20} alt="star" />
+
+            </div>    
+            <Image src="/star.svg" width={20} height={20} alt="star" />
 
             <motion.div
               variants={slideIn("left", "tween", 0.2, 1)}
@@ -77,7 +82,7 @@ const Hero = () => {
                 />
               </div>
 
-              
+               
            
             <div className="absolute  right-[60px] center-0 mt-5 md:mt-20">
               <Image
@@ -88,6 +93,7 @@ const Hero = () => {
                 className="opacity-[1] rotate-45"
               />
             </div>
+            
             <div className="absolute  left-[30px] center-0 mt-5 md:mt-20">
               <Image
                 src="/dope.png"
@@ -98,7 +104,10 @@ const Hero = () => {
               />
             </div>
 
+            <div className="absolute  left-[30px] center-0 mt-5 md:mt-20">
+             <Image src="/star.svg" width={20} height={20} alt="star" />
 
+            </div>
 
 
             </motion.div>

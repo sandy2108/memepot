@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Welcome from './Components/Welcome'
 import Memepots from './Components/Memepots'
 import GetStarted from './Components/GetStarted'
+import Insights from './Components/Insights'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Welcome/>
       <Memepots/>
       <GetStarted/>
+      <Insights/>
     </main>
   )
 }
