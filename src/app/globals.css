@@ -1,13 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* globals.css */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Import Tailwind base, components, and utilities */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Define custom fonts */
+@font-face {
+  font-family: 'SharpGrotesk';
+  src:url('../fonts/SharpGrotesk-Book20.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Set the default font for the entire app */
+body {
+  font-family: 'SharpGrotesk', sans-serif;
+}
+
+/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,12 +27,29 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+button:hover {
+  color: #80e956;
+  box-shadow:  0px 7px 29px 0px;
+ }
+ 
+.herobg {
+  background-image: linear-gradient(
+    0deg,
+    hwb(120 0% 98%) 14%,
+    hsl(117deg 55% 4%) 38%,
+    hsl(113deg 52% 6%) 53%,
+    hsl(109deg 50% 7%) 64%,
+    hsl(110deg 50% 9%) 72%,
+    hsl(112deg 53% 10%) 80%,
+    hsl(112deg 58% 12%) 86%,
+    hsl(110deg 63% 13%) 91%,
+    hsl(108deg 69% 14%) 96%,
+    hsl(105deg 76% 15%) 100%
+  );
+}
+.herobgs{
+  background-image: url("/bg.png");
+  background-position: center;
+  
 }
