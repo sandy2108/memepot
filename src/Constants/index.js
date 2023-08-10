@@ -9,7 +9,7 @@ export const navItems = [
     },
     {
         title:'Chart',
-        link:'/'
+        link:'https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5'
     },
     
    
@@ -64,7 +64,19 @@ export const RoadmapFeatures = [
         "Community Governance",
       ],
     },
-
-    
-    
   ]
+
+export const Tokeninfo = [
+    {
+      imgUrl: "/star.svg",
+      title: "Supply",
+      subtitle:
+        " The total supply is 99,000,000,000 tokens and 2.5 % tax on both buy and sell ",
+    },
+    {
+      imgUrl: "/star.svg",
+      title: "Distribution",
+      subtitle:
+        "85% liquidity pool, 10% Team, 5% marketing.",
+    },
+];
