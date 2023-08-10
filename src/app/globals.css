@@ -53,3 +53,19 @@ button:hover {
   background-position: center;
   
 }
+
+.memempotsbg {
+  background-image: linear-gradient(
+    0deg,
+    hsl(105deg 76% 15%) 0%,
+    hsl(108deg 69% 14%) 2%,
+    hsl(110deg 63% 13%) 4%,
+    hsl(112deg 58% 12%) 7%,
+    hsl(112deg 53% 10%) 11%,
+    hsl(110deg 50% 9%) 17%,
+    hsl(109deg 50% 7%) 27%,
+    hsl(113deg 52% 6%) 41%,
+    hsl(117deg 55% 4%) 63%,
+    hsl(120deg 50% 1%) 100%
+  );
+}
