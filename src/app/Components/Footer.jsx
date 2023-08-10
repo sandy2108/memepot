@@ -12,12 +12,13 @@ const Footer = () => (
     whileInView="show"
     className={`sm:px-16 px-6 bg-black py-8 relative`}
   >
-    <div className="footer-gradient" />
+    <div className="" />
     <div className={`2xl:max-w-[1280px] w-full mx-auto flex flex-col gap-8`}>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
+        <div className="flex items-center justify-between flex-wrap">
+          <div className="flex items-centergap-2">
           <Link href="/">
             <Image
               src="/logos.png"
@@ -28,10 +29,12 @@ const Footer = () => (
             />
           </Link>
           <Link href="/" className="flex-1">
-            <h4 className="font-extrabold flex-1 text-[24px] text-white">
+            <h4 className="font-extrabold my-2 text-[24px] text-white">
               MEMEPOT
             </h4>
           </Link>
+          </div>
+         
           <div className="flex ml-10 items-center justify-between gap-5">
           <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5"  target='_blank'>
             <Image

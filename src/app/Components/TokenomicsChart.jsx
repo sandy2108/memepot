@@ -19,7 +19,7 @@ const TokenomicsChart = () => {
       }],
     };
     const image = new Image();
-    image.src = 'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/me.png?alt=media&token=41482e3f-ad0c-4678-8ee1-8171641643ec';
+   
 
     const plugin = {
       id: 'customCanvasBackgroundImage',

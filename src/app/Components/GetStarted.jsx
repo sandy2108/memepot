@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { startingFeatures } from '@/Constants';
 import { TypingText,TitleText } from './CustomText';
 import StartSteps from './StartSteps';
-import { staggerContainer ,fadeIn, planetVariants } from '@/utils';
+import { staggerContainer ,fadeIn,slideIn } from '@/utils';
 
 const GetStarted = () => (
   <section className={`sm:p-16 xs:p-8 px-6 py-12 min-h-screen herobg relative z-10`}>
@@ -18,13 +18,13 @@ const GetStarted = () => (
       className={`2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={planetVariants('left')}
+      variants={slideIn("left", "tween", 0.2, 1)}
         className={`flex-1 flex justify-center items-center`}
       >
         <img
-          src="/spaceman.png"
+          src="/pang.png"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[70%] h-[70%] object-contain"
         />
       </motion.div>
       <motion.div
