@@ -2,6 +2,7 @@ import Head from 'next/head';
 import './globals.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import { Fragment } from 'react'; 
 
 export const metadata = {
   title: 'MEMEPOTS | $POT',
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
       
       <body>
         <Navbar/>
-        {children}
+        <Fragment>{children}</Fragment>
         <Footer/>
       </body>
      

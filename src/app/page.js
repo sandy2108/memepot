@@ -1,22 +1,21 @@
+import dynamic from 'next/dynamic';
 
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import Welcome from './Components/Welcome'
-import Memepots from './Components/Memepots'
-import GetStarted from './Components/GetStarted'
-import Insights from './Components/Insights'
-import Tokenomics from './Components/Tokenomics'
-import Footer from './Components/Footer'
+const Hero = dynamic(() => import('./Components/Hero'));
+const Welcome = dynamic(() => import('./Components/Welcome'));
+const Memepots = dynamic(() => import('./Components/Memepots'));
+const GetStarted = dynamic(() => import('./Components/GetStarted'));
+const Insights = dynamic(() => import('./Components/Insights'));
+const Tokenomics = dynamic(() => import('./Components/Tokenomics'));
 
 export default function Home() {
   return (
     <main>
-      <Hero/>
-      <Welcome/>
-      <Memepots/>
-      <GetStarted/>
-      <Insights/>
-      <Tokenomics/>
+      <Hero />
+      <Welcome />
+      <Memepots />
+      <GetStarted />
+      <Insights />
+      <Tokenomics />
     </main>
-  )
+  );
 }
