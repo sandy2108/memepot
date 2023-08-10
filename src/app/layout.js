@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import './globals.css';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 export const metadata = {
   title: 'MEMEPOTS | $POT',
@@ -25,7 +27,13 @@ export default function RootLayout({ children }) {
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={URL} /> {/* Add Twitter image tag */}
       </Head>
-      <body>{children}</body>
+      
+      <body>
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
+     
     </html>
   );
 }

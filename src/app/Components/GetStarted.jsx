@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
-
+import Image from 'next/image';
 import { startingFeatures } from '@/Constants';
 import { TypingText,TitleText } from './CustomText';
 import StartSteps from './StartSteps';
@@ -21,9 +20,11 @@ const GetStarted = () => (
       variants={slideIn("left", "tween", 0.2, 1)}
         className={`flex-1 flex justify-center items-center`}
       >
-        <img
+        <Image
           src="/pang.png"
           alt="get-started"
+          width={100}
+          height={100}
           className="w-[70%] h-[70%] object-contain"
         />
       </motion.div>
