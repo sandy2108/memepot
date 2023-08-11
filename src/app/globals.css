@@ -48,9 +48,10 @@ button:hover {
     hsl(105deg 76% 15%) 100%
   );
 }
-.herobgs{
+.bgimage{
   background-image: url("/bg.png");
   background-position: center;
+  
   
 }
 

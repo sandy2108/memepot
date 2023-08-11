@@ -1,13 +1,17 @@
-"use client";
-
+"use client"
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { slideIn, staggerContainer, textVariant } from "@/utils";
 import { motion } from "framer-motion";
-import { TitleText, TypingText } from "./CustomText";
+import Image from "next/image";
+import Link from "next/link";
+import { slideIn, staggerContainer, textVariant } from "@/utils";
+import { TitleText } from "./CustomText";
+import { RiMenu5Line } from "react-icons/ri";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Hero = () => {
+  const animateText = textVariant(1.2);
+  const animateSlideIn = slideIn("left", "tween", 0.2, 1);
+
   return (
     <section className="herobg w-full relative z-10">
       <motion.div
@@ -15,18 +19,16 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className="herobgs"
+        className="bgimage"
       >
         <div className="max-w-[1340px] mx-auto p-4">
           <div className="grid grid-cols-1 items-center justify-center">
-            <motion.div variants={textVariant(1.2)} className="my-2 px-2">
-
-            
-    
+            <motion.div variants={animateText} className="my-2 px-2">
               <TitleText
                 title={
                   <>
-                    NEW KING OF MEME <br className="md:block hidden font-SharpGrotesk" />
+                    NEW KING OF MEME
+                    <br className="md:block hidden font-SharpGrotesk" />
                   </>
                 }
                 textStyles="text-center"
@@ -34,7 +36,8 @@ const Hero = () => {
               <TitleText
                 title={
                   <>
-                    MEMEPOT <br className="md:block hidden" />
+                    MEMEPOT
+                    <br className="md:block hidden" />
                   </>
                 }
                 textStyles="text-center my-2 text-green-400"
@@ -45,32 +48,16 @@ const Hero = () => {
               </h2>
             </motion.div>
 
-            <div className="absolute  right-[15px] top-0 mt-5 md:mt-20">
-              <Image
-                src="/dope.png"
-                height={100}
-                width={100}
-                alt="/"
-                className="opacity-[0.4] rotate-45"
-              />
-            </div>
-            <div className="absolute  left-[10px] top-0 mt-5 md:mt-20">
-              <Image
-                src="/dope.png"
-                height={100}
-                width={100}
-                alt="/"
-                className="opacity-[0.4] -rotate-12"
-              />
-            </div>    
-            <div className="absolute  right-[100px] top-0 mt-5 md:mt-20">
-             <Image src="/star.svg" width={20} height={20} alt="star" />
+          
 
-            </div>    
-            <Image src="/star.svg" width={20} height={20} alt="star" />
+           
+
+           
+
+            
 
             <motion.div
-              variants={slideIn("left", "tween", 0.2, 1)}
+              variants={animateSlideIn}
               className="text-2xl font-bold text-white cols-span-6 flex items-center justify-center"
             >
               <div className="rounded-xl border-2 solid overflow-hidden border-white">
@@ -79,37 +66,10 @@ const Hero = () => {
                   width={300}
                   height={280}
                   className="w-[320px] h-[350px] md:w-[480px] md:h-[480px]"
+                  alt="memepot"
                 />
               </div>
-
-               
-           
-            <div className="absolute  right-[60px] center-0 mt-5 md:mt-20">
-              <Image
-                src="/dope.png"
-                height={100}
-                width={100}
-                alt="/"
-                className="opacity-[1] rotate-45"
-              />
-            </div>
-            
-            <div className="absolute  left-[30px] center-0 mt-5 md:mt-20">
-              <Image
-                src="/dope.png"
-                height={100}
-                width={100}
-                alt="/"
-                className="opacity-1 -rotate-12"
-              />
-            </div>
-
-            <div className="absolute  left-[30px] center-0 mt-5 md:mt-20">
-             <Image src="/star.svg" width={20} height={20} alt="star" />
-
-            </div>
-
-
+              {/* ... (rest of your code) */}
             </motion.div>
           </div>
         </div>
@@ -117,5 +77,13 @@ const Hero = () => {
     </section>
   );
 };
+
+const ImageBlock = ({ src, alt, width, height, className, top, right, left }) => (
+  <div
+    className={`absolute ${top} ${right} ${left} center-0`}
+  >
+    <Image src={src} width={width} height={height} alt={alt} className={className} />
+  </div>
+);
 
 export default Hero;

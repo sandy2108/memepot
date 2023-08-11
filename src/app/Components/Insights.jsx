@@ -17,9 +17,11 @@ const RoadmapCard = ({roadmap}) => (
     iconStyle={{background: roadmap.iconBg}}
     icon={
       <div className='flex justify-center items-center w-full h-full'>
-        <img 
+        <Image 
            src={roadmap.icon}
            alt="/"
+           width={30}
+           height={30}
            className='w-[60%] h-[60%] object-contain'
         />
       </div>

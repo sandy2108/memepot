@@ -61,9 +61,11 @@ const Navbar = () => {
             </div>
             
             <div className="ml-10">
+              <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5">
               <button className="border px-10 py-1 font-normal rounded-full border-0.30 border-green-400 text-[#FFFFFF] ">
                 BUY $POT
               </button>
+              </Link>
             </div>
           </div>
 
