@@ -10,7 +10,7 @@ const Hero = () => {
   const animateSlideIn = slideIn("left", "tween", 0.2, 1);
 
   return (
-    <section className="herobg w-full">
+    <section className="herobg w-full relative">
       
       <motion.div
         variants={staggerContainer}
@@ -22,6 +22,9 @@ const Hero = () => {
       
         <div className="max-w-[1340px] mx-auto p-4">
           <div className="grid grid-cols-1 items-center justify-center">
+          <div className="absolute top-1/3 right-[70px] z-2">
+              <Image src="star.svg" height={20} width={20} />
+            </div>
             <motion.div variants={animateText} className="my-2 px-2">
               <TitleText
                 title={
@@ -40,11 +43,17 @@ const Hero = () => {
                   </>
                 }
                 textStyles="text-center my-2 text-[#Afff03]"
-              />
-
+              /> 
+              <div className="flex items-start justify-around">
+              <Image src="star.svg" height={20} width={20} className="opacity-20 "/>
+              <Image src="star.svg" height={20} width={20}  />
               
+              </div>
+            
             </motion.div>
-
+            <div className="absolute md:top-1/3 top-0 opacity-20 left-5 z-2">
+              <Image src="star.svg" height={20} width={20} />
+            </div>
 
             <motion.div
               variants={animateSlideIn}
@@ -59,14 +68,15 @@ const Hero = () => {
                   alt="memepot"
                 />
               </div>
-              {/* ... (rest of your code) */}
+             
+
             </motion.div>
             <motion.div variants={animateText} className="my-2 px-2 flex items-center justify-center">
-            
+            <Image src="star.svg" height={20} width={20} />
               <h2 className="text-lg md:text-2xl font-bold text-gray-200 flex text-center  max-w-[550px] my-5 md:py-4">
                      The greatest memecoin community in the world deserves the greatest rewards programs ever seen in Degenland
               </h2>
-              
+              <Image src="star.svg" height={20} width={20} className="opacity-20 " />
             </motion.div>
             
           </div>
