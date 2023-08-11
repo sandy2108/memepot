@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { slideIn, staggerContainer, textVariant } from "@/utils";
 import { TitleText } from "./CustomText";
+import Link from "next/link";
 
 const Hero = () => {
   const animateText = textVariant(1.2);
@@ -46,6 +47,7 @@ const Hero = () => {
               /> 
               <div className="flex items-start justify-around">
               <Image src="star.svg" height={20} width={20} className="opacity-20 "/>
+              <Link href="https://gempad.app/presale/0x91cCF0F9e0FACa039b28aBa03f1C5d4Ebcd0E1C6" target="_blank"><button class="Btn">Presale live! </button></Link>
               <Image src="star.svg" height={20} width={20}  />
               
               </div>
