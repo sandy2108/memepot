@@ -44,7 +44,7 @@ const Welcome = () => {
             height={90}
             width={400}
             alt="/"
-            className="transform -rotate-12"
+            className=""
           />
         </div>
       </div>

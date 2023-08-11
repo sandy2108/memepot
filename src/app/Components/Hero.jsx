@@ -2,11 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import { slideIn, staggerContainer, textVariant } from "@/utils";
 import { TitleText } from "./CustomText";
-import { RiMenu5Line } from "react-icons/ri";
-import { AiOutlineClose } from "react-icons/ai";
 
 const Hero = () => {
   const animateText = textVariant(1.2);
@@ -19,7 +16,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className="bgimage"
+        className=""
       >
         <div className="max-w-[1340px] mx-auto p-4">
           <div className="grid grid-cols-1 items-center justify-center">
@@ -48,13 +45,6 @@ const Hero = () => {
               </h2>
             </motion.div>
 
-          
-
-           
-
-           
-
-            
 
             <motion.div
               variants={animateSlideIn}
