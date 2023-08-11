@@ -4,12 +4,13 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import { Fragment } from 'react'; 
 
+
 export const metadata = {
   title: 'MEMEPOTS | $POT',
   description: 'MemePot gives away free ETH every day to pump your bags, build and grow the community, and to promote decentralized innovation.',
 };
 
-const URL = 'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/photo_2023-07-31_20-41-01.jpg?alt=media&token=6571fb99-bb01-46e6-9fad-6301691764a8';
+const URL = 'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/Memepot-logo-green.png?alt=media&token=1b410bc1-e032-46e9-8a24-dc485a06c2d0';
 
 export default function RootLayout({ children }) {
   return (
