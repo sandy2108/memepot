@@ -11,13 +11,15 @@ const Hero = () => {
 
   return (
     <section className="herobg w-full">
+      
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className=""
-      >
+        className="bgimage"
+      > 
+      
         <div className="max-w-[1340px] mx-auto p-4">
           <div className="grid grid-cols-1 items-center justify-center">
             <motion.div variants={animateText} className="my-2 px-2">
