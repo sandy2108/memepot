@@ -10,7 +10,7 @@ const Hero = () => {
   const animateSlideIn = slideIn("left", "tween", 0.2, 1);
 
   return (
-    <section className="herobg w-full relative z-10">
+    <section className="herobg w-full">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

@@ -87,7 +87,7 @@ const Navbar = () => {
             <div
               className={`${
                 !toggle ? "hidden" : "flex"
-              } p-6 bg-black bg-opacity-95 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-20`}
+              } p-6 bg-black absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl`}
             >
               <ul className="list-none flex justify-end items-start flex-1 flex-col">
                 {/* Mobile Navigation Links */}
