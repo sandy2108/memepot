@@ -85,6 +85,7 @@ const Memepots = () => {
               height={100}
               alt="image"
               className="h-full w-full object-cover"
+              unoptimized
             />
             <div className="absolute bottom-0 left-0 p-4">
               <Link href="https://t.me/memepoteth" alt="/">
@@ -101,11 +102,12 @@ const Memepots = () => {
 
           <div className="hidden lg:flex rounded-2xl lg:mt-8 lg:mb-2 mx-5  mt-5 overflow-hidden relative">
             <Image
-              src="/pepe.jpg"
+              src="/meme.jpg"
               width={100}
               height={100}
               alt="image"
-              className="h-full w-full object-cover"
+              className="h-full w-full "
+              unoptimized
             />
             <div className="absolute bottom-0 left-0 p-4">
               <Link href="https://t.me/memepoteth" alt="/">
