@@ -59,7 +59,7 @@ const Insights = () => (
              <Image src="/star.svg" width={20} height={20} alt="star" />
 
             </div>  
-      <TitleText title={<>Memepots Milestones</>} textStyles="text-center" />
+      <TitleText title={<>MemePot Milestones</>} textStyles="text-center text-white" />
       <div className="absolute  right-[100px] center-0 mt-5 md:mt-20">
              <Image src="/star.svg" width={20} height={20} alt="star" />
 

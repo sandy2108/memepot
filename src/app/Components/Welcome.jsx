@@ -9,18 +9,14 @@ const Welcome = () => {
       <div className="max-w-[1340px] mx-auto p-4">
         <div className="items-center pt-10 md:pt-20 relative z-20">
           <div className="flex items-center py-5">
-            <h1 className="font-bold text-3xl md:text-6xl max-w-[630px] text-white">
-              Welcome to{" "}
-              <span className="text-[#Afff03]">MemeFi Community</span>
+            <h1 className="font-bold text-3xl md:text-6xl max-w-[680px] text-white">
+              Welcome to the{" "}
+              <span className="text-[#Afff03]">MemePot Community</span>
             </h1>
           </div>
           <div className="max-w-6xl my-5">
             {/* ...Your paragraphs of text */}
-            <p className="text-white font-normaltext-md md:text-xl my-5">
-              The MemePot token symbol is <span className="text-[#Afff03]">$POT.</span> $POT is an ERC20 token-based
-              meme community rewards instrument for the MemePot Community, with
-              economic utility through the MemeFi ecosystem.
-            </p>
+           
             <p className="text-white font-normal text-md md:text-xl">
               MemePot is the hottest new meme project. MemePot is a community
               driven project, with daily and monthly rewards to keep the

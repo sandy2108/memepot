@@ -26,25 +26,23 @@ const Hero = () => {
               <TitleText
                 title={
                   <>
-                    NEW KING OF MEME
+                    THE NEW KING OF MEMES
                     <br className="md:block hidden font-SharpGrotesk" />
                   </>
                 }
-                textStyles="text-center"
+                textStyles="text-center text-white"
               />
               <TitleText
                 title={
                   <>
-                    MEMEPOT
+                    MEMEPOT | $POT
                     <br className="md:block hidden" />
                   </>
                 }
-                textStyles="text-center my-2 text-green-400"
+                textStyles="text-center my-2 text-[#Afff03]"
               />
 
-              <h2 className="text-lg md:text-2xl font-normal text-gray-200 flex items-center justify-center my-5 md:py-4 md:px-4">
-                Grab Daily and Mega Memepots
-              </h2>
+              
             </motion.div>
 
 
@@ -63,6 +61,14 @@ const Hero = () => {
               </div>
               {/* ... (rest of your code) */}
             </motion.div>
+            <motion.div variants={animateText} className="my-2 px-2 flex items-center justify-center">
+            
+              <h2 className="text-lg md:text-2xl font-bold text-gray-200 flex text-center  max-w-[550px] my-5 md:py-4">
+                     The greatest memecoin community in the world deserves the greatest rewards programs ever seen in Degenland
+              </h2>
+              
+            </motion.div>
+            
           </div>
         </div>
       </motion.div>

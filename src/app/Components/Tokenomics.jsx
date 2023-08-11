@@ -14,7 +14,7 @@ const Tokenomics = () => (
       <div className='items-center justify-center max-w-[1340px] mx-auto'>
        <TypingText title="Tokenomics" textStyles="text-center font-normal text-[#80e956] text-2xl" />
 
-       <TitleText title={<>Supply and Distribution</>} textStyles="text-center" />
+       <TitleText title={<>Supply and Distribution</>} textStyles="text-center text-white" />
        </div>
 
     <motion.div

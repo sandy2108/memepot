@@ -46,7 +46,7 @@ export const RoadmapFeatures = [
         "Token Launch",
         "Daily & Mega Memepots",
         "Complete Techrate Audits",
-        "Coinmarketcap and coingecko",
+        "Coinmarketcap and Coingecko",
         "Three Top 10 CEX Listing",
       ],
     },
@@ -71,7 +71,7 @@ export const Tokeninfo = [
       imgUrl: "/star.svg",
       title: "Supply",
       subtitle:
-        " The total supply is 99,000,000,000 tokens and 2.5 % tax on both buy and sell ",
+        " The total supply is 99,000,000,000 tokens and 2.5 % tax on both buys and sells ",
     },
     {
       imgUrl: "/star.svg",

@@ -46,7 +46,7 @@ const Memepots = () => {
         </div>
         <div className="grid lg:grid-cols-2">
           <div className="grid md:grid-rows-2 gap-4 ">
-            {cardData.map((card, index) => (
+            {cardData2.map((card, index) => (
               <div
                 key={index}
                 className={`bg-black  rounded-xl border-2 border-green-300  solid shadow-2xl px-4 ${
@@ -117,7 +117,7 @@ const Memepots = () => {
           </div>
           
           <div className="grid md:grid-rows-2 gap-4 ">
-            {cardData2.map((card, index) => (
+            {cardData.map((card, index) => (
               <div
                 key={index}
                 className={`bg-black  rounded-xl border-2 border-green-300  solid shadow-2xl px-4 ${

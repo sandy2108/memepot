@@ -19,17 +19,17 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap">
           <div className="flex items-centergap-2">
-          <Link href="/">
+          <Link href="/" className="my-1 mr-2">
             <Image
               src="/logos.png"
-              width={50}
+              width={30}
               height={30}
-              className=""
+              className="max-w-[50px]"
               alt="/"
             />
           </Link>
           <Link href="/" className="flex-1">
-            <h4 className="font-extrabold my-2 text-[24px] text-white">
+            <h4 className="font-extrabold my-2 text-[18px] md:text-[24px] text-white">
               MEMEPOT
             </h4>
           </Link>
@@ -66,7 +66,7 @@ const Footer = () => (
           </div>
         </div>
         <p className="font-normal text-[14px] text-white mt-4">
-          Copyright © Memepots | memepots@outlook.com
+        Copyright MemePot | mp@memepot.io
         </p>
       </div>
     </div>

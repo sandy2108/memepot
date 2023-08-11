@@ -27,7 +27,7 @@ const Navbar = () => {
                   <h1
                     className={`${
                       index === 0 ? "text-[#80e956]" : "text-[#FFFFFF]"
-                    } text-[16px] font-normal hover:text-[#80e956]`}
+                    } text-[16px] font-normal hover:text-[#Afff03]`}
                   >
                     {item.title}
                   </h1>
