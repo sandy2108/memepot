@@ -34,20 +34,10 @@ button:hover {
  }
  
 .herobg {
-  background-image: linear-gradient(
-    0deg,
-    hwb(120 0% 98%) 14%,
-    hsl(117deg 55% 4%) 38%,
-    hsl(113deg 52% 6%) 53%,
-    hsl(109deg 50% 7%) 64%,
-    hsl(110deg 50% 9%) 72%,
-    hsl(112deg 53% 10%) 80%,
-    hsl(112deg 58% 12%) 86%,
-    hsl(110deg 63% 13%) 91%,
-    hsl(108deg 69% 14%) 96%,
-    hsl(105deg 76% 15%) 100%
-  );
+  background: rgb(0,0,0);
+  background: linear-gradient(297deg, rgba(0,0,0,1) 11%, rgba(6,60,14,1) 47%, rgba(4,42,10,1) 63%, rgba(0,0,0,1) 100%); 
 }
+
 .bgimage{
   background-image: url("/bg.png");
   background-position: center;
