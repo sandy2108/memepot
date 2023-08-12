@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,21 +20,22 @@ const Memepots = () => {
     },
   ];
 
-
   const cardData2 = [
     {
       imageSrc: "/star.svg",
-      alt:"/",
-      content: " By blending meme culture with DeFi, MemePot creates an exclusive ecosystem and fuels active participation through regular ETH rewards.",
-      title: "MemeFi Fusion"
+      alt: "/",
+      content:
+        " By blending meme culture with DeFi, MemePot creates an exclusive ecosystem and fuels active participation through regular ETH rewards.",
+      title: "MemeFi Fusion",
     },
     {
       imageSrc: "/star.svg",
-      alt:"/",
-      content: "MemePot employs innovative jackpots that promote diverse investments, backed by transparent onchain selection, while safeguarding fairness through exclusion policies",
-      title: "Holistic Growth Approach"
-    }
-  ]
+      alt: "/",
+      content:
+        "MemePot employs innovative jackpots that promote diverse investments, backed by transparent onchain selection, while safeguarding fairness through exclusion policies",
+      title: "Holistic Growth Approach",
+    },
+  ];
 
   return (
     <div className="w-full text-white memempotsbg">
@@ -62,11 +63,10 @@ const Memepots = () => {
                       alt={card.alt}
                       className="rounded-full shadow-sm shadow-[#deff4c] mr-5"
                     />
-                    
+
                     <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#deff4c] hover:text-white text-2xl leading-6 my-5">
-                    <Link href="https://t.me/memepoteth">{card.title}  </Link>
+                      <Link href="https://t.me/memepoteth">{card.title} </Link>
                     </h1>
-                  
                   </div>
                   <div className=" mx-2">
                     <p className="font-inter my-2 font-[500px] text-base sm:text-lg leading-normal">
@@ -98,9 +98,7 @@ const Memepots = () => {
         </div>
 
         <div className="grid lg:grid-cols-2">
-   
-
-          <div className="hidden lg:flex rounded-2xl lg:mt-8 lg:mb-2 mx-5  mt-5 overflow-hidden relative">
+          <div className=" lg:flex rounded-2xl lg:mt-8 lg:mb-2 mx-5  mt-5 overflow-hidden relative order-last lg:order-first">
             <Image
               src="/meme.jpg"
               width={100}
@@ -110,15 +108,18 @@ const Memepots = () => {
               unoptimized
             />
             <div className="absolute bottom-0 left-0 p-4">
-              <Link href="https://app.uniswap.org/#/tokens/ethereum/0x767f478ff1f8a05c1bae6d7881541008922b1fa3" alt="/">
+              <Link
+                href="https://app.uniswap.org/#/tokens/ethereum/0x767f478ff1f8a05c1bae6d7881541008922b1fa3"
+                alt="/"
+              >
                 <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#deff4c] my-2 text-white font-bold">
                   Buy Memepot | $POT
                 </h1>
               </Link>
             </div>
           </div>
-          
-          <div className="grid md:grid-rows-2 gap-4 ">
+
+          <div className="grid md:grid-rows-2 gap-4 order-first lg:order-last">
             {cardData.map((card, index) => (
               <div
                 key={index}
@@ -135,11 +136,10 @@ const Memepots = () => {
                       alt={card.alt}
                       className="rounded-full shadow-sm shadow-[#deff4c] mr-5"
                     />
-                    
+
                     <h1 className="flex-1 font-inter font-normal cursor-pointer text-[#deff4c] hover:text-white text-2xl leading-6 my-5">
-                    <Link href="https://t.me/memepoteth">{card.title}  </Link>
+                      <Link href="https://t.me/memepoteth">{card.title} </Link>
                     </h1>
-                  
                   </div>
                   <div className=" mx-2">
                     <p className="font-inter my-2 font-[500px] text-base sm:text-lg leading-normal">
@@ -150,13 +150,7 @@ const Memepots = () => {
               </div>
             ))}
           </div>
-
-
-
-          
         </div>
-
-
       </div>
     </div>
   );
