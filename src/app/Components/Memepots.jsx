@@ -89,7 +89,7 @@ const Memepots = () => {
             />
             <div className="absolute bottom-0 left-0 p-4">
               <Link href="https://t.me/memepoteth" alt="/">
-                <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#4ca3ff] my-2 text-white font-bold">
+                <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#deff4c] my-2 text-white font-bold">
                   Meet the MemePot Community
                 </h1>
               </Link>
@@ -110,9 +110,9 @@ const Memepots = () => {
               unoptimized
             />
             <div className="absolute bottom-0 left-0 p-4">
-              <Link href="https://t.me/memepoteth" alt="/">
-                <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#4ca3ff] my-2 text-white font-bold">
-                  Meet the MemePot Community
+              <Link href="https://app.uniswap.org/#/tokens/ethereum/0x767f478ff1f8a05c1bae6d7881541008922b1fa3" alt="/">
+                <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl px-4 hover:text-[#deff4c] my-2 text-white font-bold">
+                  Buy Memepot | $POT
                 </h1>
               </Link>
             </div>
