@@ -54,7 +54,7 @@ const Hero = () => {
             
             </motion.div>
             <div className="absolute md:top-1/3 top-0 opacity-20 left-5 z-2">
-              <Image src="star.svg" height={20} width={20} />
+              <Image src="star.svg" height={20} width={20} alt="star" />
             </div>
 
             <motion.div
