@@ -21,7 +21,7 @@ export default function Audits() {
       >
         <Image src="/star.svg" width={20} height={20} alt="star" />
         <TypingText
-          title="Audit"
+          title="KYC Verified"
           textStyles="text-center font-normal text-[#80e956] text-2xl"
         />
         <div className="absolute  right-1/3 bottom-0 mt-5 md:mt-20">
