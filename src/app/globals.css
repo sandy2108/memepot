@@ -76,7 +76,7 @@ body {
 
 .Btn::before {
   position: absolute;
-  content: "PRESALE LIVE";
+  content: "PRESALE END";
   color: #0faf00;
   display: flex;
   align-items: center;
