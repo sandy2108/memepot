@@ -47,7 +47,7 @@ const Hero = () => {
               /> 
               <div className="flex items-start justify-around">
               <Image src="star.svg" height={20} width={20} className="opacity-20 " alt="star" />
-              <Link href="https://gempad.app/presale/0x91cCF0F9e0FACa039b28aBa03f1C5d4Ebcd0E1C6" target="_blank"><button class="Btn">Presale live! </button></Link>
+              <Link href="https://gempad.app/presale/0x91cCF0F9e0FACa039b28aBa03f1C5d4Ebcd0E1C6" target="_blank"><button class="Btn">Presale Ends! </button></Link>
               <Image src="star.svg" height={20} width={20} alt="star"  />
               
               </div>
