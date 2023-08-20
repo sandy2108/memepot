@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex ml-10 items-center justify-between gap-5">
-            <Link href="https://twitter.com/memepoteth" target="_blank">
+            <Link href="https://twitter.com/memepoterc" target="_blank">
                 {" "}
                 <Image
                   src="/tw.svg"
