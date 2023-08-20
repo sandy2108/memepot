@@ -5,7 +5,7 @@ export const navItems = [
     },
     {
         title:'Whitepaper',
-        link:'/',
+        link:'https://www.dropbox.com/scl/fi/g5qttyjqahugxsvgsufv1/MemePot-Whitepaper.pdf?rlkey=fzh19zhyo9ogndu3shvcbfvhc&dl=0',
     },
     {
         title:'Chart',
