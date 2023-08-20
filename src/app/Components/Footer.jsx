@@ -45,7 +45,7 @@ const Footer = () => (
               className="cursor-pointer text-white"
             />
             </Link>
-            <Link href="https://twitter.com/memepoteth"  target='_blank'>
+            <Link href="https://twitter.com/memepoterc"  target='_blank'>
             <Image
               src="/tw.svg"
               height={15}
